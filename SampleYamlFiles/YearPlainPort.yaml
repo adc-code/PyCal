@@ -1,0 +1,57 @@
+PageOrientation: P
+PageXOrigin: 0.5
+PageYOrigin: 0.5
+PageWidth: 7.5
+PageHeight: 10 
+
+YearHeader:      0.35
+YearHeaderSpace: 0.15
+YearGridSpacing: 0.075
+
+BlockMonthTitleHeight: 0.065
+BlockTitleSpace:       0.02
+BlockDayTitleHeight:   0.035
+BlockDayRegionHeight:  0.88
+
+
+FirstDay: S
+
+TitleStyle: 1
+
+Font: times
+FontBold: True
+FontItalic: False
+FontColourR: 0
+FontColourG: 0
+FontColourB: 0
+
+DayRegionColourR: 0
+DayRegionColourG: 0
+DayRegionColourB: 0
+DayFontScale: 0.25
+DayNumPlacement: 2
+DayCornerOffset: 0.03
+
+DayGridStyle: 1
+DayGridSpacing: 0.05
+DayGridInvert: False
+
+DayTitleStyle: 1
+
+GridLineThickness: 0.015
+
+HorizontalLines: False
+HorizontalLineSpacing: 6
+HorizontalLineThickness: 0.001
+HorizontalLineColourR: 169
+HorizontalLineColourG: 169
+HorizontalLineColourB: 169
+
+Debug: False
+DebugColourR: 255
+DebugColourG:   0 
+DebugColourB:   0
+DebugLineThickness: 0.001
+
+
+
