@@ -152,7 +152,7 @@ def MakePDFMonthCal (year, month, calParams, outputFile):
 
 		pdfFile.set_text_color (calParams['FontColourR'], calParams['FontColourG'], calParams['FontColourB'])
 
-		if (calParams['DayTitleStyle'] == 1):
+		if (calParams['TitleStyle'] == 1):
 
 			pdfFile.set_xy (calParams['PageXOrigin'] + calXOffset, calParams['PageYOrigin'] + calYOffset)
 			pdfFile.set_font (calParams['Font'], style=fontStyle, size=INCH_TO_POINT*calParams['BlockMonthTitleHeight']*calHeight) 
@@ -162,7 +162,7 @@ def MakePDFMonthCal (year, month, calParams, outputFile):
 		        	      border=calParams['Debug'], align='C')
 
 
-		elif (calParams['DayTitleStyle'] == 2):
+		elif (calParams['TitleStyle'] == 2):
 
 			pdfFile.set_font (calParams['Font'], style=fontStyle, size=INCH_TO_POINT*calParams['BlockMonthTitleHeight']*calHeight)
 			monthFontWidth = pdfFile.get_string_width (calendar.month_name[calMonth])
